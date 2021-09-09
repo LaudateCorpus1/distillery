@@ -160,6 +160,8 @@ defmodule Distillery.Releases.Runtime.Control do
     option(:run_erl_env, :string, "Extra configuration for run_erl")
   end
 
+  command(:prep, "Prepares fast boot")
+
   @doc """
   This function executes before any commands are dispatched
   """
