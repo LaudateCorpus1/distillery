@@ -121,6 +121,10 @@ case $COMMAND_NAME in
         configure_release
         . "$COMMAND_PATH" "$@"
         ;;
+    prep)
+        configure_release
+        . "$COMMAND_PATH" "$@"
+        ;;
     *)
         # If the command exists in libexec, execute
         # Otherwise check to see if it's the name of a custom command
